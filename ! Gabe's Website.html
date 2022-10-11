@@ -44,9 +44,10 @@
     }
 
     p{
-        position:fixed; 
+        /* put it in the same line instead of this */
+        /* position:fixed; 
         left:80px; 
-        top:500px; 
+        top:500px;  */
 
         /* highlight thing */
         /* background-color:rgb(255, 255, 255); */
@@ -55,6 +56,34 @@
 ul.myUL {
   display: inline-block;
   text-align: left;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /* .test {
@@ -71,18 +100,14 @@ ul.myUL {
     <header>
         <br>
         <h1><strong> Gabriel Marasigan </strong></h1>
-        <!-- <p style="font-size: 30px">Nice To Meet You</p> -->    
         <ul>
         </ul>
     </header>
 </body>
 </div>
 
-<div class="container">
+<div class="topnav">
     <ul class="myUL">
-        <!-- <a href="#">About Me</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact</a> -->
         <li><a href="#">About Me</a></li>
         <li><a href="#">Resume</a></li>
         <li><a href="#">Contact</a></li>
@@ -108,7 +133,10 @@ ul.myUL {
 
 <div class="test">
     <body>  
-        
+        <h1 style="position: fixed; left:500px; top:1000px;"> About Me </h1>
+        <!-- position:fixed; 
+        left:80px; 
+        top:500px; -->
     </body>
 </div>
 
