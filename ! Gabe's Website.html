@@ -9,6 +9,7 @@
     body {
         text-align: center;
         background: url("background1.jpg");
+        /* background-position: -500px; */
         background-repeat: no-repeat;
         /* background:rgb(51, 51, 51) */
         color: rgb(255, 255, 255);
@@ -35,9 +36,9 @@
     }
     
     /* i think this like aligns the hyperlinks stuff */
-    div.container {
+    /* div.container {
         text-align: center;
-    }
+    } */
 
     ul{
         color:black;
@@ -49,7 +50,7 @@
         left:80px; 
         top:500px;  */
 
-        /* highlight thing */
+        /* highlight example */
         /* background-color:rgb(255, 255, 255); */
     }
 
@@ -60,13 +61,16 @@ ul.myUL {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: rgb(0, 0, 0);
   overflow: hidden;
+  padding: 0px 500px;
+  /* border: 7px solid white;
+  border-radius: 20px; */
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  /* float: left; */
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -92,6 +96,10 @@ ul.myUL {
     width: 50px;
 } */
 
+header{
+    background: black;
+}
+
     </style>
 </head>
 
@@ -99,18 +107,19 @@ ul.myUL {
 <body>
     <header>
         <br>
-        <h1><strong> Gabriel Marasigan </strong></h1>
+        <h1 style="background-color:rgb(0, 0, 0);"><strong> Gabriel Marasigan </strong></h1>
         <ul>
         </ul>
-    </header>
 </body>
 </div>
 
-<div class="topnav">
+<div class="topnav" style="position:fixed; left:630px; top:115px;">
     <ul class="myUL">
+        <header>
         <li><a href="#">About Me</a></li>
         <li><a href="#">Resume</a></li>
         <li><a href="#">Contact</a></li>
+        </header>
     </ul>
   </div>
     
