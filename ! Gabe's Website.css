@@ -27,24 +27,10 @@ footer {
     bottom: 0;
 }
 
-/* i think this like aligns the hyperlinks stuff */
+/* aligns the hyperlinks */
 /* div.container {
     text-align: center;
 } */
-
-ul{
-    color:black;
-}
-
-p{
-    /* put it in the same line instead of this */
-    /* position:fixed; 
-    left:80px; 
-    top:500px;  */
-
-    /* highlight example */
-    /* background-color:rgb(255, 255, 255); */
-}
 
 ul.myUL {
 display: inline-block;
@@ -53,7 +39,7 @@ text-align: center;
 
 /* Add a black background color to the top navigation */
 .topnav {
-background-color: rgb(0, 0, 0);
+/* background-color: rgb(0, 0, 0); */
 overflow: hidden;
 /* padding: 0px 500px; */
 /* border: 7px solid white;
@@ -66,7 +52,6 @@ color: #f2f2f2;
 text-align: center;
 padding: 14px 50px;
 text-decoration: none;
-font-size: 17px;
 /* float: left; */
 }
 
@@ -82,20 +67,9 @@ background-color: #04AA6D;
 color: white;
 } */
 
-/* .test {
-color:royalblue;
-height: 50px;
-width: 50px;
-} */
-
 header{
-background: black;
+    background: black;
 }
-
-
-
-
-
 
 .button {
     border: none;
@@ -117,6 +91,7 @@ background: black;
     transition-duration: 0.4s;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 20px;
+    transition: 0.15s all ease;
     }
 
     /* Change the color of links on hover */
@@ -124,4 +99,19 @@ background: black;
     background-color: rgb(255, 255, 255);
     border-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+}
+
+body { 
+    animation: fadeIn 2s; 
+}
+@keyframes fadeIn 
+    { 0% 
+        { 
+        opacity: 0; 
+        }
+    100% 
+    { opacity: 1; 
     }
+  }
+
+/* https://stackoverflow.com/questions/28203411/animating-margins-and-padding-with-css-transition-causes-jumpy-animation */
