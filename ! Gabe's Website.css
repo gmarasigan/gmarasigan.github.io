@@ -46,11 +46,7 @@ border-radius: 20px; */
 
 /* Style the links inside the navigation bar */
 .topnav a {
-color: #f2f2f2;
-text-align: center;
-padding: 14px 50px;
-text-decoration: none;
-/* float: left; */
+padding: 10px 5px;
 }
 
 /* Change the color of links on hover */
@@ -76,7 +72,8 @@ header{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 50px;
+    /* vv second num controls space between buttons */
+    margin: 4px 1px;
     }
 
     .button {
