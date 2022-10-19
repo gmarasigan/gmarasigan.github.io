@@ -1,3 +1,4 @@
+
 body {
     text-align: center;
     background: url("background1.jpg");
@@ -10,13 +11,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-li{
-    display: inline;
-    padding: 0px 84px 0px 28px;
-}
-
 a{
     color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
 }
 
 footer {
@@ -46,7 +44,7 @@ border-radius: 20px; */
 
 /* Style the links inside the navigation bar */
 .topnav a {
-padding: 10px 5px;
+    padding: 10px 1px;
 }
 
 /* Change the color of links on hover */
@@ -72,11 +70,11 @@ header{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    /* vv second num controls space between buttons */
+    /* v changes button size */
     margin: 4px 1px;
-    }
+}
 
-    .button {
+.button {
     /* background-color: rgb(0, 0, 0); */
     background-color: transparent;
     overflow: hidden;
@@ -86,10 +84,10 @@ header{
     border-radius: 20px;
     /* transition: 1s all ease; */ /* < reminder that "all" works */
     transition: .3s ease-in-out;
-    }
+}
 
     /* Change the color of links on hover */
-    .button:hover {
+.button:hover {
     background-color: rgb(255, 255, 255);
     border-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
