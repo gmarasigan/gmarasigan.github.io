@@ -16,11 +16,13 @@ a{
     color: rgb(255, 255, 255);
     border: 0px solid rgb(255, 0, 0);
     border-radius: 20px;
+    width: 0px;
+    
 }
 
 footer {
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
 }
 
@@ -36,7 +38,7 @@ text-align: center;
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    /* padding: 10px 1px; */
+    padding: 0px 0px 0px 0px;
 }
 
 /* Change the color of links on hover */
@@ -75,8 +77,10 @@ header{
     transition-duration: 0.4s;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 20px;
+    animation: slide 2s;
+    margin: 0px 25px 5px 25px;
     /* transition: 1s all ease; */ /* < reminder that "all" works */
-    transition: .3s ease-in-out;
+    /* transition: .3s ease-in-out; */
 }
 
     /* Change the color of links on hover */
@@ -91,14 +95,14 @@ body {
 }
 @keyframes fadeIn 
 { 
-    0% 
-    { 
-        opacity: 0; 
-        }
-            100% 
-        { 
-        opacity: 1; 
-    }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slide
+{
+    0% { margin: 0px 0px 5px 0px; }
+    100% { margin: 0px 25px 5px 25px; }
 }
 
 .topnav{
