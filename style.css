@@ -1,10 +1,9 @@
 
 body {
     text-align: center;
-    background: url("images/background2.jpg");
-    /* background-position: -500px; */
-    /* background-repeat: no-repeat; */
-    /* background-color:rgb(51, 51, 51); */
+    background: url("images/darkbg1.jpg");
+    background-position-y:154px;
+    background-size:auto;
     background-color:rgb(0, 0, 0);
     background-repeat: no-repeat;
     /* background-color:rgb(80, 117, 158); */
@@ -88,11 +87,13 @@ header{
     background-color: rgb(255, 255, 255);
     border-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 body { 
     animation: fadeIn 5s; 
 }
+
 @keyframes fadeIn 
 { 
     0% { opacity: 0; }
@@ -106,14 +107,10 @@ body {
 }
 
 .topnav{
-    width: 100%;
-    /* position: top; */
-    margin: 0;
-    padding: 0px;
+    margin:0;
     background-color:rgb(0, 0, 0);
     padding-top: 25px;
-    padding-bottom: 10px;
-    border: 7px solid rgb(255, 255, 255);
+    padding-bottom: 0px;
 }
 
 /* make background fill entire page */
