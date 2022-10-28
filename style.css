@@ -122,3 +122,12 @@ h1 {
     margin:0;
     /* height: 5; */
 }
+
+#down {
+    margin-top: 100%;
+    padding-bottom: 100%;
+} 
+
+html {
+    scroll-behavior: smooth;
+}
