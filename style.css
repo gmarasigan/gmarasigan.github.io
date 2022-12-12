@@ -72,10 +72,10 @@ header{
     /* background-color: rgb(0, 0, 0); */
     background-color: transparent;
     overflow: hidden;
-    padding: 6px 15px;
+    padding: 8px 15px;
     transition-duration: 0.4s;
     border: 3px solid rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 100px;
     /* animation: slide 2s; */
     /* margin: 0px 25px 5px 25px; */
     /* transition: 1s all ease; */ /* < reminder that "all" works */
