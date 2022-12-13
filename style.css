@@ -3,7 +3,8 @@ body {
     text-align: center;
     background: url("images/darkbg1.jpg");
     background-position-y:154px;
-    background-size:auto;
+    /* background-size:cover; */
+    background-size: 100vw 100vh;
     background-color:rgb(0, 0, 0);
     background-repeat: no-repeat;
     /* background-color:rgb(80, 117, 158); */
