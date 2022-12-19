@@ -148,6 +148,32 @@ html {
     scroll-behavior: smooth;
 }
 
+#top-button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* v changes button size */
+    margin: 4px 1px;
+}
+
+#top-button {
+    background-color: black;
+    overflow: hidden;
+    padding: 8px 15px;
+    transition-duration: 0.4s;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+#top-button:hover {
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
 
 /* implement:  to make the scroll put the element in the middle of the page rather than the top, put an extra <br> so it scrolls to that rather than the text itself
                there's probably better ways to implement this but idk how to so this will do for now lmao */
