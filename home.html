@@ -78,27 +78,15 @@
     </p>
 </div>
 
-
-
-
-<div class="top">
+<!-- <div class="top">
     <p>
         <a href="#aboutme"><button class="button top">Top of page</button></a>
     </p>
-</div>
+</div> -->
 
 <!-- HTML for the button -->
 <button onclick="topFunction()" id="top-button" title="Go to top">Top</button>
 
-<!-- CSS for the button -->
-<style>
-  /* Set the button to be fixed at the bottom right corner of the page */
-  #top-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
-</style>
 
 <!-- JavaScript for the button -->
 <script>
@@ -106,10 +94,10 @@
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("top-button").style.display = "block";
+    if (window.pageYOffset > 20) {
+      document.querySelector('button').classList.add('hidden');
     } else {
-      document.getElementById("top-button").style.display = "none";
+      document.querySelector('button').classList.remove('hidden');
     }
   }
 
