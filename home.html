@@ -94,10 +94,10 @@
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
-    if (window.pageYOffset > 20) {
-      document.querySelector('button').classList.add('hidden');
+    if (window.pageYOffset < 20) {
+      document.querySelector('#top-button').classList.add('hidden');
     } else {
-      document.querySelector('button').classList.remove('hidden');
+      document.querySelector('#top-button').classList.remove('hidden');
     }
   }
 
