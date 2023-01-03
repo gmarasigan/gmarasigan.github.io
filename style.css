@@ -185,6 +185,8 @@ html {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    animation: none;
+
 }
 
 /* implement:  to make the scroll put the element in the middle of the page rather than the top, put an extra <br> so it scrolls to that rather than the text itself
