@@ -18,6 +18,7 @@ a{
     width: 0px;
     animation: slide 2.5s;
     margin: 0px 25px 5px 25px;;
+    text-decoration: none;
 }
 
 footer {
@@ -189,13 +190,30 @@ html {
 
 }
 
-.accgallery {
+/* .accgallery {
     float: left;
     width: 33.33%;
     padding: 5px;
     border-width: 12px;
     height: 256px;
-  }
+  } */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  /* width: 33.33%; */
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* implement:  to make the scroll put the element in the middle of the page rather than the top, put an extra <br> so it scrolls to that rather than the text itself
                there's probably better ways to implement this but idk how to so this will do for now lmao */
