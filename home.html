@@ -35,7 +35,8 @@
 <div id="aboutme">
 <div class="about_me">
     <body>
-        <h2 style="font-family: Raleway, Helvetica, sans-serif;">ABOUT ME</h2>
+        <!-- <h2 style="font-family: Raleway, Helvetica, sans-serif;">ABOUT ME</h2> -->
+        <h1>ABOUT ME</h1>
         <p> 
             Hi, I'm Gabe! I am currently a junior at Tappan Zee High School and am interested in computer science as a profession. 
             I have taken Computer Science 1 and 2, AP Computer Science, Capstone. I have done software for robotics for 2+ years.
@@ -48,6 +49,7 @@
 <div class="column">
 <div id="accomplishments">
 <div class="accgallery">
+    <h1>ACCOMPLISHMENTS</h1>
     <p>
         4 on the APCS exam <br>
         Computer Science Honor Society <br>
@@ -58,10 +60,11 @@
         <!-- <img src="images/frc1.jpg" style="height:256px; border-radius: 12px;"> -->
         
         <br>
-        Code for FRC competitions <br>
+        Software member in robotics <br>
         Project Invent <br>
         Wealth Distribution Lab <br>
         Pong Game <br>
+        Text Adventure <br>
         [insert links and images lol]
         
     </p>
@@ -72,13 +75,10 @@
 
 <div id="contact">
     <p>
-        Email: gabemgn@gmail.com
-        GitHub: https://github.com/gmarasigan
+<h1>CONTACT</h1>
         <br>
-        <!-- <a href="https://github.com/gmarasigan">
-            <img src="images/githubV3.png" style="height: 32px;">
-        </a> -->
-        <a href="#">
+
+        <a href="mailto: faive39@gmail.com">
             <img src="images/emailV3.png" style="height: 32px;">
         </a>
         <a href="https://github.com/gmarasigan">
@@ -100,8 +100,12 @@
   function scrollFunction() {
     if (window.pageYOffset < 20) {
       document.querySelector('#top-button').classList.add('hidden');
+      document.getElementById("top-button").style.cursor = "default";
+    //   $.css('cursor: grab');
+        
     } else {
       document.querySelector('#top-button').classList.remove('hidden');
+      document.getElementById("top-button").style.cursor = "pointer";
     }
   }
 
@@ -120,3 +124,6 @@
 <!-- rather than position:bottom;, you can do margin-top:10000px; to manually position it -->
 <p style="position:bottom;">&copy; Copyright 2023 Gabriel Marasigan</p>
 </html>
+
+<!-- if less than 20 px down, cursor: default on hover
+    if greater than 20 px down, cursor: pointer on hover -->
