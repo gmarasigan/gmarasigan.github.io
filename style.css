@@ -208,13 +208,9 @@ html {
     animation: none;
 }
 
-/* .accgallery {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    border-width: 12px;
-    height: 256px;
-  } */
+.accgallery {
+    border-radius: 20px;
+  }
 
 * {
   box-sizing: border-box;
