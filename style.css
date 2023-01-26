@@ -1,7 +1,7 @@
 
 body {
     text-align: center;
-    background: url("images/darkbg1.jpg");
+    background: url("images/sky.png");
     background-position-y:154px;
     /* background-size:cover; */
     background-size: 100vw 100vh;
@@ -145,15 +145,18 @@ h1 {
 }
 
 #aboutme {
-    margin-top: 500px;
+    margin-top: 600px;
 } 
 
-/* #accomplishments {
-    margin-top: 2000px;
-} */
+.column {
+    /* float: left; */
+    width: 100%;
+    padding: 5px;
+    margin-top: 200px;
+}
 
 #contact {
-    margin-top: 3000px;
+    margin-top: 300px;
 }
 
 .top {
@@ -208,19 +211,12 @@ html {
     animation: none;
 }
 
-.accgallery {
+/* .accgallery {
     border-radius: 20px;
-  }
+} */
 
 * {
   box-sizing: border-box;
-}
-
-.column {
-  /* float: left; */
-  width: 100%;
-  padding: 5px;
-  margin-top: 2000px;
 }
     
 /* Clearfix (clear floats) */
@@ -230,5 +226,11 @@ html {
   display: table;
 }
 
-/* implement:  to make the scroll put the element in the middle of the page rather than the top, put an extra <br> so it scrolls to that rather than the text itself
-               there's probably better ways to implement this but idk how to so this will do for now lmao */
+img {
+    border-radius: 12px;
+}
+
+img:hover {
+    transition-duration: 0.4s;
+    opacity: 50%;
+}
