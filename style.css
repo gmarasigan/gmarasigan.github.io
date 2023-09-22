@@ -1,11 +1,12 @@
 
 body {
     text-align: center;
-    background: url("images/sky.png");
+    /* background: url("images/sky.png"); */
     background-position-y:154px;
     /* background-size:cover; */
     background-size: 100vw 100vh;
-    background-color:rgb(0, 0, 0);
+    background: rgb(204,200,170);
+    background: linear-gradient(170deg, rgba(204,200,170,1) 0%, rgba(232,232,232,1) 100%);
     background-repeat: no-repeat;
     /* background-color:rgb(80, 117, 158); */
     color: rgb(255, 255, 255);
