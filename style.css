@@ -308,3 +308,9 @@ img:hover {
     font-size: 16px;
     padding: 16px 32px;
   }
+
+  .bg1
+  {
+    background-image: url("images/bg1.png");
+    background-size: cover;
+  }
