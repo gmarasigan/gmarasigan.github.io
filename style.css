@@ -271,10 +271,10 @@ img:hover {
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
   -moz-transform: translate(-50%, 0%) rotate(45deg);
   transform: translate(-50%, 0%) rotate(45deg);
-  -webkit-animation: fade_move_down 4s ease-in-out infinite;
+  /* -webkit-animation: fade_move_down 4s ease-in-out infinite;
   -moz-animation:    fade_move_down 4s ease-in-out infinite;
-  animation:         fade_move_down 4s ease-in-out infinite;
-  scale: 3;
+  animation:         fade_move_down 4s ease-in-out infinite; */
+  scale: 1.5;
 }
 
 

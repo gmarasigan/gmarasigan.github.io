@@ -40,14 +40,14 @@
         <!-- <img src="images/portrait.png" style="position:center; height:256px; margin-top: 50px; opacity: 100%;"> -->
         
         <!-- caret -->
-        <div class="scroll-down"></div>
+        <div class="scroll-down" onclick="scrollCaret()"></div>
 
 
 <div id="aboutme">
 <div class="about_me">
     <body>
         <!-- <h2 style="font-family: Raleway, Helvetica, sans-serif;">ABOUT ME</h2> -->
-        <h1><br>ABOUT ME</h1>
+        <h1><br><br><br>ABOUT ME</h1>
         <hr style="width:3%">
         <p style="font-size: x-large; background-color: rgb(105, 105, 105);"> 
 
@@ -64,7 +64,7 @@
 <hr style="width: 80%; margin-top:125px;">
 
 <div class="column">
-    <h1><br>ACCOMPLISHMENTS</h1><br>
+    <h1><br><strong>RESUME</strong></h1><br>
     <hr style="width:8%">
     <h2>Computer Science</h2>
 
@@ -76,8 +76,14 @@
         <img src="images/robotics1.jpg" style="width:25%; margin:50px; margin-bottom:25px;">
         <img src="images/robotics2.jpg" style="width:25%; margin:50px; margin-bottom:25px;">
         <img src="images/capstone.jpg" style="width:25%; margin:50px; margin-bottom:25px;">
+        <img src="images/cshs.jpg" style="width:25%; margin:50px; margin-bottom:25px;">
+        <img src="images/internship.jpg" style="width:25%; margin:50px; margin-bottom:25px;">
+        <img src="images/projectinventtalk.jpg" style="width:25%; margin:50px; margin-bottom:25px;">
 
-        <hr style="opacity: 33%; width:50%">!
+
+
+
+        <hr style="opacity: 33%; width:50%">
         <h2>Projects</h2>
         <img src="images/text adventure.png" title="Smiley face" style="width:25%; margin:50px; margin-bottom:25px;">
         <img src="images/wealth distribution.png" style="width:25%; margin:50px; margin-bottom:25px;">
@@ -125,6 +131,19 @@
 
 <!-- JavaScript for the button -->
 <script>
+  //
+  window.onscroll = function() {scrollCaret()};
+
+  function scrollCaret() {
+    if (window.pageYOffset < 20) {
+      document.querySelector('.scroll-down').classList.add('hidden');
+      document.getElementById("scroll-down").style.cursor = "default";
+    } else {
+      document.querySelector('.scroll-down').classList.remove('hidden');
+      document.getElementById("scroll-down").style.cursor = "pointer";
+    }
+  }
+
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function() {scrollFunction()};
 
