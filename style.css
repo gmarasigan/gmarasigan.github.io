@@ -95,7 +95,7 @@ header{
 }
 
 body { 
-    animation: fadeIn 5s; 
+    animation: fadeIn 3s; 
 }
 
 @keyframes fadeIn 
@@ -183,14 +183,16 @@ html {
     font-size: 16px;
     /* v changes button size */
     margin: 4px 1px;
-    background-color: black;
+    background-color: rgb(133, 133, 133);
     overflow: hidden;
     padding: 8px 15px;
     transition-duration: 0.4s;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 100px;
     display: flex;
-  justify-content: space-around;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    transform: scale(1, .9);
 }
 
 #top-button:hover {
@@ -236,7 +238,7 @@ img {
 }
 
 img:hover {
-    transition-duration: 0.4s;
+    transition-duration: 0.35s;
     opacity: 50%;
 }
 
@@ -320,4 +322,33 @@ hr {
     margin-bottom: 0px;
     height: 4px;
     background: white;
+}
+
+.hovertext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .overlaytext {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 100%;
+    width: 100%; */
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+.overlaytext:hover {
+    opacity: 1;
 }
