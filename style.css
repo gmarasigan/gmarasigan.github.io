@@ -152,7 +152,7 @@ h1 {
 
 .column {
     /* float: left; */
-    width: 100%;
+    /* width: 100%; */
     padding: 5px;
     margin-top: 200px;
     position: relative;
@@ -355,3 +355,9 @@ hr {
 .overlaytext:hover {
     opacity: 1;
 }
+
+img {
+    object-fit: cover;
+    width: 250px;
+    /* height: 250px; */
+  }
