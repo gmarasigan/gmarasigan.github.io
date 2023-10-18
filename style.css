@@ -356,8 +356,8 @@ hr {
     opacity: 1;
 }
 
-img {
+/* img {
     object-fit: cover;
     width: 250px;
-    /* height: 250px; */
-  }
+    height: 250px;
+  } */
