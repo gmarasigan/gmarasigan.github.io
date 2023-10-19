@@ -277,6 +277,7 @@ img:hover {
   -moz-animation:    fade_move_down 4s ease-in-out infinite;
   animation:         fade_move_down 4s ease-in-out infinite; */
   scale: 1.5;
+  transition-duration: 0.4s;
 }
 
 
@@ -361,3 +362,14 @@ hr {
     width: 250px;
     height: 250px;
   } */
+
+@keyframes scroll-enter {
+    0% {
+		opacity: 0%;
+        margin-bottom: 75px;
+	}
+	50% {
+		opacity: 100%;
+        margin-bottom: 25px;
+	}
+}
