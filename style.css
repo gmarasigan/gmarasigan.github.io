@@ -373,3 +373,12 @@ hr {
         margin-bottom: 25px;
 	}
 }
+
+@keyframes name1 {
+    0% {margin-bottom: 100px;}
+    100% {margin-bottom: 0px;}
+  }
+
+.name1{
+    animation: name1 1.5s;
+}
