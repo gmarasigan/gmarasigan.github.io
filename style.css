@@ -315,7 +315,7 @@ img:hover {
 
   .bg1
   {
-    background-image: url("images/bg1.png");
+    background-image: url("images/portraitbg.png");
     background-size: cover;
   }
 
@@ -381,4 +381,9 @@ hr {
 
 .name1{
     animation: name1 1.5s;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 67% 33%;
 }
