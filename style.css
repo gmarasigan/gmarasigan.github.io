@@ -307,10 +307,11 @@ img:hover {
   }
   
   .text {
-    background-color: #04AA6D;
+    /* background-color: #04AA6D; */
     color: white;
-    font-size: 16px;
+    font-size: 24px;
     padding: 16px 32px;
+    text-align: left;
   }
 
   .bg1
@@ -385,5 +386,5 @@ hr {
 
 .grid {
     display: grid;
-    grid-template-columns: 67% 33%;
+    grid-template-columns: 50% 50%;
 }
