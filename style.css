@@ -387,7 +387,15 @@ hr {
     animation: name1 1.5s;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    width: 33%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+    text-align: center;
 }
