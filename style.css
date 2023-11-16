@@ -150,7 +150,8 @@ h1 {
 
 #aboutme {
     margin-top: 600px;
-    background-color: rgb(105, 105, 105);
+    background-color: rgb(254, 255, 236);
+    color:rgb(20, 52, 164);
 } 
 
 .column {
@@ -399,3 +400,15 @@ hr {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.aboutme-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aboutme-image {
+    width: 50%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* this code is unuseable */
