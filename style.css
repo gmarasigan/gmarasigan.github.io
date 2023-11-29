@@ -392,3 +392,8 @@ hr {
     text-align: center;
 }
 /* this code is unuseable */
+
+.caption {
+    text-align:left;
+    margin-left:105px;
+}
