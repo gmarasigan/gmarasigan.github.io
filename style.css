@@ -383,6 +383,12 @@ hr {
     text-align: center;
 }
 
+.image2 {
+    width: 50%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .aboutme-grid {
     display: flex;
     flex-wrap: wrap;
@@ -397,5 +403,5 @@ hr {
 
 .caption {
     text-align:left;
-    margin-left:105px;
+    margin-left:120px;
 }
